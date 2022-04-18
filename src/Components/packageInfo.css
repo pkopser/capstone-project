@@ -1,0 +1,58 @@
+
+.bread-crumb{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: white;
+padding-top: 2rem;
+font-size: 30px;
+margin-left:17rem;
+padding-bottom: 1rem;
+}
+
+.slideshow {
+    width: 900px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.center-Section{
+    align-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#packageImage{
+   justify-content: center;
+}
+
+.about{
+   
+    width:25rem;
+    padding:2rem;
+    padding-top:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+   
+}
+p1{
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+#package-title{
+    font-size: 45px;
+    font-weight:500;
+}
+#price{
+    font-size: 30px;
+    font-weight:800;
+}
+
+#info{
+    font-size: 20px;
+}
+
+
+

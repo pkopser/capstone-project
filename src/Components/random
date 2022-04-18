@@ -1,0 +1,109 @@
+  // const [data,setData]=useState([]);
+
+  // const getData=()=>{
+  //   fetch( '.../data.json'
+
+  //   ,{
+  //     headers : { 
+  //       'Content-Type': 'application/json',
+  //       'Accept': 'application/json'
+  //      }
+  //   }
+  //   )
+  //     .then(function(response){
+  //       console.log(response)
+  //       return response.json();
+  //     })
+  //     .then(function(myJson) {
+  //       console.log(myJson);
+  //       setData(myJson)
+  //     });
+  // }
+
+  // useEffect(()=>{
+  //   getData()
+  // },[])
+
+//   getPackages() {
+//     let config = this.config; 
+
+//     return new Promise((resolve, reject) => {
+//         axios.get(`${this.url}`, this.config)
+//             .then(x => resolve(x.data))
+//             .catch(x => {
+//                 alert(x);
+//                 reject(x);
+//             })
+//     });
+// }
+
+// getPackage(packageId) {
+//     return new Promise((resolve, reject) => {
+//         axios.get(`${this.url}/${packageId}`, this.config)
+//             .then(x => resolve(x.data))
+//             .catch(x => {
+//                 alert(x);
+//                 reject(x);
+//             })
+//     });
+// }
+
+
+
+  
+//   if (!data) {
+//     return <div>Loading Package List...</div>
+// }
+
+
+// {
+//     "christmas":[
+//     {
+//         "id":1,
+//         "name":"White Christmas",
+//         "image":"https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png",
+//         "decscription":"Lorem ipsum dolor sit amet, at dictum, donec urna elementum, eget curabitur wisi nam, ultrices felis eleifend, sit aliquet libero quis lacus.",
+//         "price": 1342.99
+    
+//      },
+//      {
+//         "id":2,
+//         "name":"North Pole",
+//         "image":"https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png",
+//         "decscription":"Lorem ipsum dolor sit amet, at dictum, donec urna elementum, eget curabitur wisi nam, ultrices felis eleifend, sit aliquet libero quis lacus.",
+//         "price": 1112.99
+    
+//      },
+//      {
+//         "id":3,
+//         "name":"Winter Wonderland",
+//         "image":"https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png",
+//         "decscription":"Lorem ipsum dolor sit amet, at dictum, donec urna elementum, eget curabitur wisi nam, ultrices felis eleifend, sit aliquet libero quis lacus.",
+//         "price": 122.99
+    
+//      },
+//      {
+//         "id":4,
+//         "name":"Glam Christmas",
+//         "image":"https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png",
+//         "decscription":"Lorem ipsum dolor sit amet, at dictum, donec urna elementum, eget curabitur wisi nam, ultrices felis eleifend, sit aliquet libero quis lacus.",
+//         "price": 142.99
+    
+//      }
+    
+
+// ],
+// "halloween":[
+//    {
+//        "id":1,
+//        "name":"halloween",
+//        "image":"https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png",
+//        "decscription":"Lorem ipsum dolor sit amet, at dictum, donec urna elementum, eget curabitur wisi nam, ultrices felis eleifend, sit aliquet libero quis lacus.",
+//        "price": 1342.99
+   
+//     }
+    
+// ]
+
+// }
+   

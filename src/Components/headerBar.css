@@ -1,0 +1,26 @@
+.bar{
+    width:100%;
+    padding:2rem;
+    display: flex;
+    background-color: #D79C9C;
+
+   
+}
+
+.center{
+  margin-left: 35%;
+
+}
+
+.homeButton{
+background-color: #A3B1A3;
+color:white;
+padding:1rem;
+font-family: 'Montserrat', sans-serif;
+font-size: large;
+    font-weight:500;
+    border-radius: 10px;
+    border-color: #D79D9C;
+    margin:2rem;
+position: absolute;
+}

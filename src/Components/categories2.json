@@ -1,0 +1,65 @@
+
+  [ 
+      {
+        "id":1,
+        "category":"Holiday",
+        "name":"Christmas"
+     },
+     {
+      "id":1,
+      "category":"Holiday",
+      "name":"Hannukah"
+   },
+     {
+      "id":2,
+      "category":"Holiday",
+      "name":"Halloween"
+   },
+   {
+      "id":3,
+      "category":"Holiday",
+      "name":"Thanksgiving"
+   },
+
+ {
+   "id":7,
+   "category":"Seasonal",
+   "name":"Spring"
+},
+{
+ "id":8,
+ "category":"Seasonal",
+ "name":"Summer"
+},
+{
+ "id":9,
+ "category":"Seasonal",
+ "name":"Fall"
+},
+{
+   "id":10,
+   "category":"Seasonal",
+   "name":"Winter"
+  },
+  {
+   "id":11,
+   "category":"Event",
+   "name":"Birthday Party"
+  },
+  {
+     "id":12,
+     "category":"Event",
+     "name":"Baby Shower"
+    },
+    {
+      "id":12,
+      "category":"Event",
+      "name":"Outdoor Party"
+     }
+      
+   
+
+
+]
+
+   
