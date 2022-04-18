@@ -12,7 +12,7 @@ export class HeaderBar extends React.Component {
         return<>
 
 <div class= "bar">
-    <div>\<Link to={'/'}>
+    <div><Link to={'/'}>
 <img src={logo} width="100"/>
 </Link>
 </div>
