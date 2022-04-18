@@ -27,20 +27,19 @@ class App extends Component {
       <Router>
       <Switch>
 
-      <Route   exact path="dainty-flan-0c1cbe.netlify.app/:category/:subCategory/:id">
+      <Route   exact path="/:category/:subCategory/:id">
            <PackageInfo></PackageInfo>
       </Route>
 
-      <Route  exact path="dainty-flan-0c1cbe.netlify.app/:category/:subCategory">
+      <Route  exact path="/:category/:subCategory">
            <AllPackages></AllPackages>
       </Route>
 
-      <Route exact path="dainty-flan-0c1cbe.netlify.app/:category">
+      <Route exact path="/:category">
           <AllPackages ></AllPackages> 
      </Route>
 
-      <Route  exact path="dainty-flan-0c1cbe.netlify.app">
-           <h1>hello</h1>
+      <Route  exact path="/">
            <LandingPage></LandingPage> 
 
       </Route> 
