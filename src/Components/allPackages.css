@@ -12,6 +12,7 @@
     text-align: center;
     font-size: xx-large;
 }
+
 .right-side{
     margin-left: 1vw;
     padding: 2vw;
@@ -83,23 +84,29 @@ color: white;
     height:40%;
     align-self: left;
     text-align: center;
-    padding:center;
+justify-content: center;
+
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight:400;
     color: white;
-    padding:4%;
-    padding-top: 5%;
-    
+ 
     margin-top: 3rem;
     margin-left:0;
     border:solid;
     border-radius:40px;
     background-color: #A3B1A3;
+    
+    
  
 }
 
+.infoText{
+    margin-top: 10%;
+}
 .btn{
+    margin-left:0;
     margin-bottom:3px;
-    padding:20px;
+    
 }

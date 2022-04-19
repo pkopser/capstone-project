@@ -20,23 +20,6 @@ import list from './data2.json'
 export  function PackageManager(props) {  
 
 
-  // const [packages, setPackages] = useState(undefined);
-  // const packageRepository = new PackageRepository();
-
-  // useEffect(  () => {
-  //     onSearch();
-  //   },[]);
-
-   
-  // let onSearch = () => {
-  //      packageRepository.getPackages().then(x => setPackages(x));
-  // }
-
-
-  // if (!packages) {
-  //     return <div>Loading Package List...</div>
-  // }
-
   return (
     <>
 
@@ -49,7 +32,7 @@ export  function PackageManager(props) {
       <div key={item.id} id="spot"> 
      
       <h1 className="name">{item.name}</h1>
-      <img src={item.image} className="image"></img>
+      <img src={item.image} className="image" ></img>
        
       </div>
       

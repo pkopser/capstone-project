@@ -20,33 +20,11 @@ export function AllPackages () {
 
     const {category} = useParams();
     const {subCategory} = useParams();
-    // const [categories, setCategories] = useState(undefined);
-
-
-    // const packageRepository = new PackageRepository();
-
-
-
-
-    // useEffect(  () => {
-    //     onSearch();
-        
-    //   },[category],[subCategory]);
-
-     
-    // let onSearch = () => {
-    //     packageRepository.getCategories().then(x => setCategories(x));
-    // }
-
-
-    // if (!categories) {
-    //     return <div>Loading Category List...</div>
-    // }
     
     let infoGraphic = (category) =>{
         if (subCategory== undefined){
            
-             return < span className="infoGraphic"> Explore our {category} Packages by choosing a subcategory on the left hand side! </span>
+             return < div  className="infoGraphic" > <p class='infoText'> Explore our {category} Packages by choosing a subcategory on the left hand side! </p></div>
          
         }
     }

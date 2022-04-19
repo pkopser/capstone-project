@@ -17,9 +17,9 @@ export class HeaderBar extends React.Component {
 </Link>
 </div>
 
-   
-<img class="center"  width="400" src={bannerImage}/>
-
+   <div class="center">
+<img  width="400" src={bannerImage}/>
+</div>
 
 </div>
 <div >   

@@ -35,7 +35,7 @@ render(){
       <p id="toplabel">3 Month Rental</p>
       </div>
 
-    <div class="menu-container">
+    <div class="menu-container" >
   
  
 
@@ -47,7 +47,7 @@ render(){
 
    <a href="/Holiday">
       <div id= "box">
-      <img class= "category-image" src={holiday} width=""></img>
+      <img class= "category-image" src={holiday} ></img>
       </div>
    </a>
 

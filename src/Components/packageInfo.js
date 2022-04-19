@@ -11,7 +11,7 @@ import PackageManager from "./packageManager";
 import { useParams } from 'react-router-dom';
 import {useState,useEffect} from 'react';
 import { PackageRepository } from "./packageRepository";
-
+import './allPackages.css'
 import list from './data2.json'
 
 export function PackageInfo (props) {
